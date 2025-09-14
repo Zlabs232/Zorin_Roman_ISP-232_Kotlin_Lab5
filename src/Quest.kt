@@ -3,4 +3,12 @@ class Quest {
     var duration: Int = 1
     var reward: Int = 100
     var difficulty: String = "Лёгкий"
+
+    fun printInfo(){
+        println("Название квеста: ${this.title}")
+        println("Время выполнения: ${this.duration} часов")
+        println("Награда: ${this.reward} монет")
+        println("Уровень сложности: ${this.difficulty}")
+    }
+
 }

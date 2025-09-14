@@ -15,8 +15,5 @@ fun main() {
     quest.reward = reward
     quest.difficulty = difficulty
 
-    println("Название квеста: ${quest.title}")
-    println("Время выполнения: ${quest.duration} часов")
-    println("Награда: ${quest.reward} монет")
-    println("Уровень сложности: ${quest.difficulty}")
+    quest.printInfo()
 }
