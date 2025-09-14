@@ -10,10 +10,7 @@ fun main() {
     print("Введите уровень сложности: ")
     val difficulty = readln()
 
-    quest.title = title
-    quest.duration = duration
-    quest.reward = reward
-    quest.difficulty = difficulty
+    quest.init(title, duration, reward, difficulty)
 
     quest.printInfo()
 }
