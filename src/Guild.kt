@@ -38,4 +38,6 @@ fun main() {
     for (q in quests) {
         q.printInfo()
     }
+
+
 }
